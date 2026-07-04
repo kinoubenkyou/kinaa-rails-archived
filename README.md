@@ -6,11 +6,12 @@ Kinaa is not another Auth
 
 - ruby
 - rails
+- postgresql
 
 ## Configure
 
 ```shell
-bundle exec rails db:migrate
+bundle exec rails db:prepare
 ```
 
 ## Run
@@ -22,5 +23,5 @@ bundle exec rails server
 ## Test
 
 ```shell
-bundle exec rails db:test:prepare test
+bundle exec rails test
 ```
